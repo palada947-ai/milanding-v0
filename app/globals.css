@@ -124,3 +124,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Hide v0 badge/watermark */
+a[href^="https://v0.dev"],
+[data-v0-badge],
+.v0-badge,
+#v0-badge {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
